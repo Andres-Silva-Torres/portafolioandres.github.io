@@ -1,0 +1,110 @@
+<link rel="stylesheet" href="">
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8"/>
+            <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+            <title>Perfil</title>
+            <script src="https://cdn.tailwindcss.com"></script>
+            <link rel="stylesheet"/>
+        </head>
+
+        <body class="bg-gray-100 font-sans">
+            <header class="bg-gray-800 text-white">
+                <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+                    <h1 class="text-lg font-bold">Perfil</h1>
+                    <nav class="flex space-x-4">
+                        <a class="hover:underline" href="#">Inicio</a>
+                        <a class="hover:underline" href="#">Mi Perfil</a>
+                        <a class="hover:underline" href="#">Encontrar Conexiones</a>
+                        <button class="bg-teal-500 text-white px-4 py-2 rounded hover:bg-teal-600">Cerrar Sesión</button>
+                    </nav>
+                </div>
+            </header>
+        <main class="container mx-auto px-4 py-6 grid grid-cols-1 lg:grid-cols-3 gap-6">
+    <!-- Profile Section -->
+        <section class="bg-white rounded-lg shadow p-6 col-span-2">
+                <div class="flex items-center space-x-4">
+                <div class="w-24 h-24 rounded-full overflow-hidden">
+                    <img alt="Andrés Silva Perfil" src="img/descarga.jpg"/>
+                </div>
+                <div>
+                    <h2 class="text-2xl font-bold">Andrés Silva</h2>
+                    <p class="text-gray-600">Chile, San Pedro de La Paz</p>
+                    <p class="text-gray-600">Amante de los gatitos y de las papas fritas</p>
+                </div>
+            </div>
+            <p class="mt-4 text-gray-700">Me gusta muchos los gatos, lo dije antes pero los adoro con todo mi corazón, tengo 2 gatitos muy lindos, vivia en Concepción pero me mude a San Pedro de La Paz hace ya uno o dos años, como hogar definitivo hasta obtener la independecia, y además estoy aprendiendo a programar.</p>
+            <a class="text-teal-500 mt-4 inline-block hover:underline" href="#">• Edit profile</a>
+        </section>
+        <!-- Connection Requests -->
+            <section class="bg-white rounded-lg shadow p-6">
+                <h3 class="text-lg font-bold mb-4">Solicitudes de Conexión (2)</h3>
+    <div class="space-y-4">
+        <div class="flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <img alt="Profile picture of Kai Schröder" class="w-12 h-12 rounded-full" src="img/Hamburguesa.png"/>
+                <p class="text-gray-700">Tengo</p>
+            </div>
+            <div class="flex space-x-2">
+                <button class="text-green-500">
+                    <i class="fas fa-check"></i>
+                </button>
+                <button class="text-red-500">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+        <div class="flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <img alt="Profile picture of Amira El-Masry" class="w-12 h-12 rounded-full" src="img/papas.jpg"/>
+                <p class="text-gray-700">hambre</p>
+            </div>
+            <div class="flex space-x-2">
+                <button class="text-green-500">
+                    <i class="fas fa-check"></i>
+                </button>
+                <button class="text-red-500">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Education -->
+<section class="bg-white rounded-lg shadow p-6 col-span-2">
+    <h3 class="text-lg font-bold mb-4">Educación</h3><p class="text-gray-700"><strong>Coding Dojo - Bootcamp de Desarrollo Full Stack</strong><br/>Dic 2024 - ? 2025<br/>Saquenme de estos desafios tan complejos</p>
+</section>
+    <!-- Connections -->
+    <section class="bg-white rounded-lg shadow p-6">
+        <h3 class="text-lg font-bold mb-4">Tus Conexiones (500+)</h3>
+        <ul class="space-y-4">
+            <li class="flex items-center space-x-4">
+                <img alt="Profile picture of Adrien Desplatz" class="w-12 h-12 rounded-full" src="img/Walter.jpg"/>
+                <p class="text-gray-700">Walter White</p>
+            </li>
+            <li class="flex items-center space-x-4">
+                <img alt="Profile picture of Aarav Patel" class="w-12 h-12 rounded-full" src="img/Jesse.jpg"/>
+                <p class="text-gray-700">Jesse Pinkman</p>
+            </li>
+            <li class="flex items-center space-x-4">
+                <img alt="Profile picture of Lina Kovačević" class="w-12 h-12 rounded-full" src="img/Homero.png"/>
+                <p class="text-gray-700">Homero Simpson</p>
+            </li>
+            <li class="flex items-center space-x-4">
+                <img alt="Profile picture of Mateo Hernández" class="w-12 h-12 rounded-full" src="img/Kronk.jpg"/>
+                <p class="text-gray-700">Kronk</p>
+            </li>
+            <li class="flex items-center space-x-4">
+                <img alt="Profile picture of Yuna Kim" class="w-12 h-12 rounded-full" src="img/Kuzco.png"/>
+                <p class="text-gray-700">Emperador Kuzco</p>
+            </li>
+            <li class="flex items-center space-x-4">
+                <img alt="Profile picture of Liam O'Brien" class="w-12 h-12 rounded-full" src="img/Kanye.jpg"/>
+                <p class="text-gray-700">Kanye West</p>
+            </li>
+        </ul>
+    </section>
+</main>
+</body>
+</html>
